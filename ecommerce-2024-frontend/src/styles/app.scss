@@ -33,8 +33,10 @@
     color: rgb(0, 195, 0);
   }
   
-  @import "admin-styles/mixin"; // mixin should be on top to user below imports
+  @import "admin-styles/mixin"; // mixin should be on top to use below imports
   
+  @import "_home";
+
   @import "admin-styles/dashboard";
   @import "admin-styles/products";
   @import "admin-styles/chart";
